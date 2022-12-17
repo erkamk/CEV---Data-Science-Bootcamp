@@ -1,0 +1,10 @@
+- Boş copy nedir? ".Copy" nedir? Yazdıktan sonra neleri değiştirir, neleri değiştirmez?
+	* copy() ile oluşturulan veri üzerinde değişiklik yapıldığında bu değişiklik orijinal veriye de yansır. Yani veri kopyalanmaz, referans kopyalanır.
+DeepCopy nedir? Shallow Copy nedir? Bunlar oluşturduğumuz df'de neleri değiştirir?
+	* Shallow copy orijinal nesnenin kopyasını saklar ve referansları nesnelere işaret eder. Deep copy direkt veriyi kopyalar ve memory'de orijinalden farklı adres oluşur. Üzerinde değişiklik yapıldığında orijinal veride değişiklik olmaz.
+- e-01 yerine 0.78'i nasıl görebiliriz?
+	* Float değerine cast ederek ve ondalık kısmından kaç tanesinin görülemesini istediğimizi belirterek yapabiliriz.
+- "np.Log()" doğal logaritma dediğimiz şekilde mi gelir yoksa log2 tabanında mı gelir?
+	* e tabanında gelir.
+- Yeo-Johnson çok büyük değerlerde uygulanamıyor mu? Neden Income değerlerinde ki "10" olan değerimizi arttırdığımızda(1000 yaptığımızda) çıktımızda bozulmalar oluyor?
+	
